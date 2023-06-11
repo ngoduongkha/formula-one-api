@@ -4,7 +4,7 @@ import { Column, Entity } from 'typeorm';
 @Entity()
 export class Team extends BaseEntity {
   @Column()
-  position: number;
+  position: string;
 
   @Column()
   year: number;

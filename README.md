@@ -28,17 +28,7 @@ cd crawler
 yarn install
 ```
 
-### Step 3 (Optional): Change range of years (for small data)
-
-```typescript
-// crawler/src/crawler.ts line 192
-private readonly YEARS: number[] = Array.from(
-  Array(2022 - 1950 + 1),
-  (_, i) => i + 1950,
-);
-```
-
-### Step 4: Run the Crawling Data Tool
+### Step 3: Run the Crawling Data Tool
 
 ```bash
 yarn start
@@ -46,33 +36,33 @@ yarn start
 
 Data will be saved in `crawler/data` folder
 
-### Step 5: Set Up the Database
+### Step 4: Set Up the Database
 
 ```bash
 cd ../server
 docker compose up -d
 ```
 
-### Step 6: Install Dependencies In `server`
+### Step 5: Install Dependencies In `server`
 
 ```bash
 yarn install
 ```
 
 
-### Step 7: Seed data 
+### Step 6: Seed data 
 
 ```bash
 yarn seed
 ```
 
-### Step 8: Run the Server API
+### Step 7: Run the Server API
 
 ```bash
 yarn start:dev
 ```
 
-### Step 9: Access the Application
+### Step 8: Access the Application
 
 You can test through the Swagger UI at http://localhost:3000/api
 

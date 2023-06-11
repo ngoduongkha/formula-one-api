@@ -190,8 +190,8 @@ export class FileExporter {
 export class App {
   // const Years from 1950 to 2022
   private readonly YEARS: number[] = Array.from(
-    Array(2022 - 1950 + 1),
-    (_, i) => i + 1950,
+    Array(2022 - 2010 + 1),
+    (_, i) => i + 2000,
   );
 
   private readonly scraper: FormulaOneScraper;

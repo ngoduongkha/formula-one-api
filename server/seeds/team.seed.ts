@@ -9,7 +9,7 @@ export default class TeamSeeder implements Seeder {
 
     const data = TeamData.map((team) => {
       const newTeam = new Team();
-      newTeam.position = parseInt(team['Pos']);
+      newTeam.position = team['Pos'];
       newTeam.year = parseInt(team['Year']);
       newTeam.name = team['Team'];
       newTeam.points = parseInt(team['PTS']);
