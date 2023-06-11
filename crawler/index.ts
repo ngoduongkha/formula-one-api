@@ -192,7 +192,7 @@ export class App {
   private readonly YEARS: number[] = Array.from(
     Array(2022 - 1950 + 1),
     (_, i) => i + 1950,
-  ).reverse();
+  );
 
   private readonly scraper: FormulaOneScraper;
   private readonly exporter: FileExporter;
