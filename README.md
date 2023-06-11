@@ -72,7 +72,7 @@ yarn seed
 yarn start:dev
 ```
 
-### Step 7: Access the Application
+### Step 9: Access the Application
 
 You can test through the Swagger UI at http://localhost:3000/api
 
