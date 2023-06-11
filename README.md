@@ -18,7 +18,7 @@ Before you begin, make sure you have the following software and tools installed 
 Start by cloning the project repository from the GitHub repository:
 
 ```
-$ git clone https://github.com/ngoduongkha/formula-one-api.git
+git clone https://github.com/ngoduongkha/formula-one-api.git
 ```
 
 ### Step 2: Install Dependencies In `crawler`
